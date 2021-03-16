@@ -1,0 +1,1545 @@
+<GEDCOM>
+ <HEAD>
+   <SOUR>PAF 2.2</SOUR>
+   <DEST>PAF</DEST>
+   <DATE>Friday, 20th November 1992</DATE>
+   <FILE>ROYALS.GED</FILE>
+   <CHAR>ANSEL</CHAR>
+   <GEDC>
+     <VERS>5.5</VERS>
+     <FORM>LINEAGE-LINKED</FORM>
+   </GEDC>
+   <SUBM>@SUBM1@</SUBM>
+   <NOTE value='This Gedcom file should only be used as part of the testsuite'>
+     <CONC>for Gedcom.pm (http://www.pjcj.net).  I have removed a</CONC>
+     <CONC>lot of data from the original, and changed a few bits, so you</CONC>
+     <CONC>should use the original if you want royal genealogy.  Contact me</CONC>
+     <CONC>if you cannot locate the original.</CONC>
+     <CONC/>
+     <CONC>Paul Johnson (pjcj@cpan.org)</CONC>
+     <CONC/>
+     <CONC>>> In a message to Cliff Manis (cmanis@csoftec.csf.com)</CONC>
+     <CONC>>> Denis Reid wrote the following:</CONC>
+     <CONC>>> Date: Fri, 25 Dec 92 14:12:32 -0500</CONC>
+     <CONC>>> From: ah189@cleveland.Freenet.Edu (Denis Reid)</CONC>
+     <CONC>>> Subject: THE ROYALS</CONC>
+     <CONC>>> First of all,  MERRY CHRISTMAS!</CONC>
+     <CONC>>></CONC>
+     <CONC>>> You may make this Royal GEDCOM available available to whomever.</CONC>
+     <CONC>>> As you know this is a work in process and have received</CONC>
+     <CONC>>> suggestions, corrections and additions from all over the planet...</CONC>
+     <CONC>>> some even who claim to be descended from Charlemange, himself!</CONC>
+     <CONC>>></CONC>
+     <CONC>>> The weakest part of the Royals is in the French and Spanish lines.</CONC>
+     <CONC>>> I found that many of the French Kings had multiple mistresses</CONC>
+     <CONC>>> whose descendants claimed noble titles, and the Throne itself in</CONC>
+     <CONC>>> some cases.  I have had the hardest time finding good published</CONC>
+     <CONC>>> sources for French and Spanish Royalty.</CONC>
+     <CONC>>></CONC>
+     <CONC>>> If you do post it to a BBS or send it around, I would appreciate</CONC>
+     <CONC>>> it if you'd append a message to the effect that I would welcome</CONC>
+     <CONC>>> comments and suggestions and possible sources to improve the</CONC>
+     <CONC>>> database.</CONC>
+     <CONC>>></CONC>
+     <CONC>>> Since the Royals had so many names and many titles it was</CONC>
+     <CONC>>> difficult to "fill in the blanks" with their name.  In the</CONC>
+     <CONC>>> previous version, I included all their titles, names, monikers in</CONC>
+     <CONC>>> the notes.</CONC>
+     <CONC>>></CONC>
+     <CONC>>> Thanks for your interest.   Denis Reid</CONC>
+   </NOTE>
+ </HEAD>
+ <SUBM id='@SUBM1@'>
+   <NAME>Denis R. Reid</NAME>
+   <ADDR value='149 Kimrose Lane'>
+     <CONT>Broadview Heights, Ohio 44147-1258</CONT>
+     <CONT>Internet Email address:  ah189@cleveland.freenet.edu</CONT>
+   </ADDR>
+   <PHON>(216) 237-5364</PHON>
+   <RIN>1</RIN>
+ </SUBM>
+ <INDI id='@I1@'>
+   <NAME>Edward_VII  /Wettin/</NAME>
+   <TITL>King of England</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Tuesday, 9th November 1841</DATE>
+     <PLAC>Buckingham,Palace,London,England</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Friday, 6th May 1910</DATE>
+     <PLAC>Buckingham,Palace,London,England</PLAC>
+   </DEAT>
+   <BURI>
+     <DATE>Friday, 20th May 1910</DATE>
+     <PLAC>Windsor,Berkshire,England</PLAC>
+   </BURI>
+   <FAMS>@F2@</FAMS>
+   <FAMC>@F1@</FAMC>
+   <RIN>2</RIN>
+ </INDI>
+ <INDI id='@I2@'>
+   <NAME>Alexandra of_Denmark "Alix"//</NAME>
+   <TITL>Princess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Sunday, 1st December 1844</DATE>
+     <PLAC>Yellow Palace,Copenhagen,Denmark</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Friday, 20th November 1925</DATE>
+     <PLAC>Sandringham,,Norfolk,England</PLAC>
+   </DEAT>
+   <BURI>
+     <PLAC>St. George Chap.,Windsor,Berkshire,England</PLAC>
+   </BURI>
+   <FAMS>@F2@</FAMS>
+   <FAMC>@F24@</FAMC>
+   <RIN>3</RIN>
+ </INDI>
+ <INDI id='@I3@'>
+   <NAME>George_V  /Windsor/</NAME>
+   <TITL>King of England</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 3rd June 1865</DATE>
+     <PLAC>Marlborough Hse,London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Friday, 7th July 1865</DATE>
+   </CHR>
+   <DEAT>
+     <DATE>Monday, 20th January 1936</DATE>
+     <PLAC>Sandringham,Norfolk,England</PLAC>
+   </DEAT>
+   <BURI>
+     <DATE>Tuesday, 28th January 1936</DATE>
+     <PLAC>Windsor Castle,St. George Chap.,Berkshire,England</PLAC>
+   </BURI>
+   <FAMS>@F3@</FAMS>
+   <FAMC>@F2@</FAMC>
+   <RIN>4</RIN>
+ </INDI>
+ <INDI id='@I4@'>
+   <NAME>Mary_of_Teck (May) //</NAME>
+   <TITL>Queen</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Sunday, 26th May 1867</DATE>
+     <PLAC>Kensington,Palace,London,England</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Tuesday, 24th March 1953</DATE>
+     <PLAC>Marlborough Hse,London,England</PLAC>
+   </DEAT>
+   <BURI>
+     <DATE>Tuesday, 31st March 1953</DATE>
+     <PLAC>St. George's,Chapel,Windsor Castle,England</PLAC>
+   </BURI>
+   <FAMS>@F3@</FAMS>
+   <FAMC>@F19@</FAMC>
+   <RIN>5</RIN>
+ </INDI>
+ <INDI id='@I5@'>
+   <NAME>Edward_VIII  /Windsor/</NAME>
+   <TITL>Duke of Windsor</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 23rd June 1894</DATE>
+     <PLAC>White Lodge,Richmond Park,Surrey,England</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Sunday, 28th May 1972</DATE>
+     <PLAC>Paris,,,France</PLAC>
+   </DEAT>
+   <BURI>
+     <PLAC>Frogmore,Windsor,Berkshire,England</PLAC>
+   </BURI>
+   <FAMS>@F12@</FAMS>
+   <FAMC>@F3@</FAMC>
+   <RIN>6</RIN>
+ </INDI>
+ <INDI id='@I6@'>
+   <NAME>Bessiewallis  /Warfield/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1896</DATE>
+     <PLAC>,,,U.S.A.</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Thursday, 24th April 1986</DATE>
+     <PLAC>Paris,,,France</PLAC>
+   </DEAT>
+   <BURI>
+     <PLAC>Frogmore,Windsor,Berkshire,England</PLAC>
+   </BURI>
+   <FAMS>@F12@</FAMS>
+   <FAMS>@F14@</FAMS>
+   <FAMS>@F15@</FAMS>
+   <FAMC>@F23@</FAMC>
+   <RIN>7</RIN>
+ </INDI>
+ <INDI id='@I7@'>
+   <NAME>George_VI  /Windsor/</NAME>
+   <TITL>King of England</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 14th December 1895</DATE>
+     <PLAC>York Cottage,Sandringham,Norfolk,England</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Wednesday, 6th February 1952</DATE>
+     <PLAC>Sandringham,Norfolk,England</PLAC>
+   </DEAT>
+   <BURI>
+     <DATE>Tuesday, 11th March 1952</DATE>
+     <PLAC>St. George Chap.,,Windsor,England</PLAC>
+   </BURI>
+   <FAMS>@F4@</FAMS>
+   <FAMC>@F3@</FAMC>
+   <RIN>8</RIN>
+ </INDI>
+ <INDI id='@I8@'>
+   <NAME>Elizabeth Angela Marguerite/Bowes-Lyon/</NAME>
+   <TITL>Lady</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Saturday, 4th August 1900</DATE>
+     <PLAC>,,London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Sunday, 23rd September 1900</DATE>
+   </CHR>
+   <FAMS>@F4@</FAMS>
+   <FAMC>@F20@</FAMC>
+   <RIN>9</RIN>
+ </INDI>
+ <INDI id='@I9@'>
+   <NAME>Elizabeth_II Alexandra Mary/Windsor/</NAME>
+   <TITL>Queen of England</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Wednesday, 21st April 1926</DATE>
+     <PLAC>17 Bruton St.,London,W1,England</PLAC>
+   </BIRT>
+   <FAMS>@F6@</FAMS>
+   <FAMC>@F4@</FAMC>
+   <RIN>10</RIN>
+ </INDI>
+ <INDI id='@I10@'>
+   <NAME>Philip  /Mountbatten/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Friday, 10th June 1921</DATE>
+     <PLAC>Isle of Kerkira,Mon Repos,Corfu,Greece</PLAC>
+   </BIRT>
+   <FAMS>@F6@</FAMS>
+   <FAMC>@F16@</FAMC>
+   <RIN>11</RIN>
+ </INDI>
+ <INDI id='@I11@'>
+   <NAME>Charles Philip Arthur/Windsor/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Sunday, 14th November 1948</DATE>
+     <PLAC>Buckingham,Palace,London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Wednesday, 15th December 1948</DATE>
+     <PLAC>Buckingham,Palace,Music Room,England</PLAC>
+   </CHR>
+   <FAMS>@F8@</FAMS>
+   <FAMC>@F6@</FAMC>
+   <RIN>12</RIN>
+ </INDI>
+ <INDI id='@I12@'>
+   <NAME>Diana Frances /Spencer/</NAME>
+   <TITL>Lady</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Saturday, 1st July 1961</DATE>
+     <PLAC>Park House,Sandringham,Norfolk,England</PLAC>
+   </BIRT>
+   <CHR>
+     <PLAC>Sandringham,Church,Norfolk,England</PLAC>
+   </CHR>
+   <FAMS>@F8@</FAMS>
+   <FAMC>@F26@</FAMC>
+   <RIN>13</RIN>
+ </INDI>
+ <INDI id='@I13@'>
+   <NAME>William Arthur Philip/Windsor/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Monday, 21st June 1982</DATE>
+     <PLAC>St. Mary's Hosp.,Paddington,London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Wednesday, 4th August 1982</DATE>
+     <PLAC>Music Room,Buckingham,Palace,England</PLAC>
+   </CHR>
+   <FAMC>@F8@</FAMC>
+   <RIN>14</RIN>
+ </INDI>
+ <INDI id='@I14@'>
+   <NAME>Henry Charles Albert/Windsor/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 15th September 1984</DATE>
+     <PLAC>St. Mary's Hosp.,Paddington,London,England</PLAC>
+   </BIRT>
+   <FAMC>@F8@</FAMC>
+   <RIN>15</RIN>
+ </INDI>
+ <INDI id='@I15@'>
+   <NAME>Anne Elizabeth Alice/Windsor/</NAME>
+   <TITL>Princess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Tuesday, 15th August 1950</DATE>
+     <PLAC>Clarence House,St. James,,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Saturday, 21st October 1950</DATE>
+     <PLAC>,,,England</PLAC>
+   </CHR>
+   <FAMS>@F7@</FAMS>
+   <FAMC>@F6@</FAMC>
+   <RIN>16</RIN>
+ </INDI>
+ <INDI id='@I16@'>
+   <NAME>Mark Anthony Peter/Phillips/</NAME>
+   <TITL>Captain</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Wednesday, 22nd September 1948</DATE>
+   </BIRT>
+   <FAMS>@F7@</FAMS>
+   <FAMC>@F40@</FAMC>
+   <RIN>17</RIN>
+ </INDI>
+ <INDI id='@I17@'>
+   <NAME>Peter Mark Andrew/Phillips/</NAME>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Tuesday, 15th November 1977</DATE>
+     <PLAC>St. Mary's Hosp.,Paddington,London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Thursday, 22nd December 1977</DATE>
+     <PLAC>Music Room,Buckingham,Palace,England</PLAC>
+   </CHR>
+   <FAMC>@F7@</FAMC>
+   <RIN>18</RIN>
+ </INDI>
+ <INDI id='@I18@'>
+   <NAME>Zara Anne Elizabeth/Phillips/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Friday, 15th May 1981</DATE>
+     <PLAC>St. Marys Hosp.,Paddington,London,England</PLAC>
+   </BIRT>
+   <FAMC>@F7@</FAMC>
+   <RIN>19</RIN>
+ </INDI>
+ <INDI id='@I19@'>
+   <NAME>Andrew Albert Christian/Windsor/</NAME>
+   <TITL>Duke of York</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Friday, 19th February 1960</DATE>
+     <PLAC>Belgian Suite,Buckingham,Palace,England</PLAC>
+   </BIRT>
+   <FAMS>@F21@</FAMS>
+   <FAMC>@F6@</FAMC>
+   <RIN>20</RIN>
+ </INDI>
+ <INDI id='@I20@'>
+   <NAME>Sarah Margaret /Ferguson/</NAME>
+   <TITL>Duchess of York</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Thursday, 15th October 1959</DATE>
+     <PLAC>27 Welbech St.,Marylebone,London,England</PLAC>
+   </BIRT>
+   <FAMS>@F21@</FAMS>
+   <FAMC>@F22@</FAMC>
+   <RIN>21</RIN>
+ </INDI>
+ <INDI id='@I21@'>
+   <NAME>Beatrice Elizabeth Mary/Windsor/</NAME>
+   <TITL>Princess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Monday, 8th August 1988</DATE>
+     <PLAC>Portland Hosp.,,England</PLAC>
+   </BIRT>
+   <FAMC>@F21@</FAMC>
+   <RIN>22</RIN>
+ </INDI>
+ <INDI id='@I22@'>
+   <NAME>Eugenie Victoria Helena/Windsor/</NAME>
+   <TITL>Princess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Friday, 23rd March 1990</DATE>
+     <PLAC>London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Sunday, 23rd December 1990</DATE>
+     <PLAC>Sandringham,England</PLAC>
+   </CHR>
+   <FAMC>@F21@</FAMC>
+   <RIN>23</RIN>
+ </INDI>
+ <INDI id='@I23@'>
+   <NAME>Edward Anthony Richard/Windsor/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Tuesday, 10th March 1964</DATE>
+     <PLAC>Buckingham,Palace,London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Saturday, 2nd May 1964</DATE>
+   </CHR>
+   <FAMC>@F6@</FAMC>
+   <RIN>24</RIN>
+ </INDI>
+ <INDI id='@I24@'>
+   <NAME>Margaret Rose /Windsor/</NAME>
+   <TITL>Princess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Thursday, 21st August 1930</DATE>
+     <PLAC>Glamis Castle,,Angus,Scotland</PLAC>
+   </BIRT>
+   <FAMS>@F5@</FAMS>
+   <FAMC>@F4@</FAMC>
+   <RIN>25</RIN>
+ </INDI>
+ <INDI id='@I25@'>
+   <NAME>Anthony Charles Robert/Armstrong-Jones/</NAME>
+   <TITL>Earl of Snowdon</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Friday, 7th March 1930</DATE>
+   </BIRT>
+   <FAMS>@F5@</FAMS>
+   <FAMS>@F44@</FAMS>
+   <RIN>26</RIN>
+ </INDI>
+ <INDI id='@I26@'>
+   <NAME>David Albert Charles/Armstrong-Jones/</NAME>
+   <TITL>Vicount Linley</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Friday, 3rd November 1961</DATE>
+   </BIRT>
+   <FAMC>@F5@</FAMC>
+   <RIN>27</RIN>
+ </INDI>
+ <INDI id='@I27@'>
+   <NAME>Sarah Frances Elizabeth/Armstrong-Jones/</NAME>
+   <TITL>Lady</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Friday, 1st May 1964</DATE>
+   </BIRT>
+   <FAMC>@F5@</FAMC>
+   <RIN>28</RIN>
+ </INDI>
+ <INDI id='@I28@'>
+   <NAME>Mary  /Windsor/</NAME>
+   <TITL>Princess Royal</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Sunday, 25th April 1897</DATE>
+     <PLAC>York Cottage,Sandringham,Norfolk,England</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Sunday, 28th March 1965</DATE>
+     <PLAC>Harewood House,Yorkshire,,England</PLAC>
+   </DEAT>
+   <FAMS>@F10@</FAMS>
+   <FAMC>@F3@</FAMC>
+   <RIN>29</RIN>
+ </INDI>
+ <INDI id='@I29@'>
+   <NAME>Henry George Charles/Lascelles/</NAME>
+   <TITL>Viscount</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1882</DATE>
+   </BIRT>
+   <DEAT>
+     <DATE>1947</DATE>
+   </DEAT>
+   <FAMS>@F10@</FAMS>
+   <RIN>30</RIN>
+ </INDI>
+ <INDI id='@I30@'>
+   <NAME>George Earl_of_Harewood /Lascelles/</NAME>
+   <TITL>Viscount</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1923</DATE>
+   </BIRT>
+   <FAMS>@F27@</FAMS>
+   <FAMS>@F29@</FAMS>
+   <FAMC>@F10@</FAMC>
+   <RIN>31</RIN>
+ </INDI>
+ <INDI id='@I31@'>
+   <NAME>Marion (Maria) Donata/Stein/</NAME>
+   <TITL>Countess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1926</DATE>
+   </BIRT>
+   <FAMS>@F27@</FAMS>
+   <FAMC>@F47@</FAMC>
+   <RIN>32</RIN>
+ </INDI>
+ <INDI id='@I32@'>
+   <NAME>David  /Lascelles/</NAME>
+   <TITL>Viscount</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1950</DATE>
+   </BIRT>
+   <FAMS>@F34@</FAMS>
+   <FAMC>@F27@</FAMC>
+   <RIN>33</RIN>
+ </INDI>
+ <INDI id='@I33@'>
+   <NAME>Margaret  /Messenger/</NAME>
+   <SEX>F</SEX>
+   <FAMS>@F34@</FAMS>
+   <RIN>34</RIN>
+ </INDI>
+ <INDI id='@I34@'>
+   <NAME>Emily  //</NAME>
+   <TITL>Hon.</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1976</DATE>
+   </BIRT>
+   <FAMC>@F34@</FAMC>
+   <RIN>35</RIN>
+ </INDI>
+ <INDI id='@I35@'>
+   <NAME>Benjamin  //</NAME>
+   <TITL>Hon.</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1978</DATE>
+   </BIRT>
+   <FAMC>@F34@</FAMC>
+   <RIN>36</RIN>
+ </INDI>
+ <INDI id='@I36@'>
+   <NAME>Alexander  /Lascelles/</NAME>
+   <TITL>Hon.</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1980</DATE>
+   </BIRT>
+   <FAMC>@F34@</FAMC>
+   <RIN>37</RIN>
+ </INDI>
+ <INDI id='@I37@'>
+   <NAME>Edward  /Lascelles/</NAME>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1982</DATE>
+   </BIRT>
+   <FAMC>@F34@</FAMC>
+   <RIN>38</RIN>
+ </INDI>
+ <INDI id='@I38@'>
+   <NAME>James  /Lascelles/</NAME>
+   <TITL>Hon.</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1953</DATE>
+   </BIRT>
+   <FAMS>@F35@</FAMS>
+   <FAMC>@F27@</FAMC>
+   <RIN>39</RIN>
+ </INDI>
+ <INDI id='@I39@'>
+   <NAME>Fredericka Ann /Duhrrson/</NAME>
+   <SEX>F</SEX>
+   <FAMS>@F35@</FAMS>
+   <RIN>40</RIN>
+ </INDI>
+ <INDI id='@I40@'>
+   <NAME>Sophie  /Lascelles/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1973</DATE>
+   </BIRT>
+   <FAMC>@F35@</FAMC>
+   <RIN>41</RIN>
+ </INDI>
+ <INDI id='@I41@'>
+   <NAME>Rowan  /Lascelles/</NAME>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1977</DATE>
+   </BIRT>
+   <FAMC>@F35@</FAMC>
+   <RIN>42</RIN>
+ </INDI>
+ <INDI id='@I42@'>
+   <NAME>Jeremy  /Lascelles/</NAME>
+   <TITL>Hon.</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1955</DATE>
+   </BIRT>
+   <FAMS>@F36@</FAMS>
+   <FAMC>@F27@</FAMC>
+   <RIN>43</RIN>
+ </INDI>
+ <INDI id='@I43@'>
+   <NAME>Julie  /Bayliss/</NAME>
+   <SEX>F</SEX>
+   <FAMS>@F36@</FAMS>
+   <RIN>44</RIN>
+ </INDI>
+ <INDI id='@I44@'>
+   <NAME>Thomas  /Lascelles/</NAME>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1982</DATE>
+   </BIRT>
+   <FAMC>@F36@</FAMC>
+   <RIN>45</RIN>
+ </INDI>
+ <INDI id='@I45@'>
+   <NAME>Ellen  /Lascelles/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1984</DATE>
+   </BIRT>
+   <FAMC>@F36@</FAMC>
+   <RIN>46</RIN>
+ </INDI>
+ <INDI id='@I46@'>
+   <NAME>Patricia  /Tuckwell/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1923</DATE>
+   </BIRT>
+   <FAMS>@F29@</FAMS>
+   <FAMS>@F46@</FAMS>
+   <RIN>47</RIN>
+ </INDI>
+ <INDI id='@I47@'>
+   <NAME>Mark  /Lascelles/</NAME>
+   <TITL>Hon.</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1964</DATE>
+   </BIRT>
+   <FAMC>@F29@</FAMC>
+   <RIN>48</RIN>
+ </INDI>
+ <INDI id='@I48@'>
+   <NAME>Gerald  /Lascelles/</NAME>
+   <TITL>Hon.</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1924</DATE>
+   </BIRT>
+   <FAMS>@F28@</FAMS>
+   <FAMS>@F30@</FAMS>
+   <FAMC>@F10@</FAMC>
+   <RIN>49</RIN>
+ </INDI>
+ <INDI id='@I49@'>
+   <NAME>Angela  /Dowding/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1919</DATE>
+   </BIRT>
+   <FAMS>@F28@</FAMS>
+   <RIN>50</RIN>
+ </INDI>
+ <INDI id='@I50@'>
+   <NAME>Henry  /Lascelles/</NAME>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1953</DATE>
+   </BIRT>
+   <FAMS>@F38@</FAMS>
+   <FAMC>@F28@</FAMC>
+   <RIN>51</RIN>
+ </INDI>
+ <INDI id='@I51@'>
+   <NAME>Alexandra  /Morton/</NAME>
+   <SEX>F</SEX>
+   <FAMS>@F38@</FAMS>
+   <RIN>52</RIN>
+ </INDI>
+ <INDI id='@I52@'>
+   <NAME>Elizabeth Collingwood /Colvin/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1924</DATE>
+   </BIRT>
+   <FAMS>@F30@</FAMS>
+   <RIN>53</RIN>
+ </INDI>
+ <INDI id='@I53@'>
+   <NAME>Martin  /Lascelles/</NAME>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1963</DATE>
+   </BIRT>
+   <FAMC>@F30@</FAMC>
+   <RIN>54</RIN>
+ </INDI>
+ <INDI id='@I54@'>
+   <NAME>Henry William Frederick/Windsor/</NAME>
+   <TITL>Duke</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 31st March 1900</DATE>
+     <PLAC>York Cottage,Sandringham,Norfolk,England</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>1974</DATE>
+   </DEAT>
+   <FAMS>@F11@</FAMS>
+   <FAMC>@F3@</FAMC>
+   <RIN>55</RIN>
+ </INDI>
+ <INDI id='@I55@'>
+   <NAME>Alice Christabel /Montagu-Douglas/</NAME>
+   <TITL>Lady</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Wednesday, 25th December 1901</DATE>
+     <PLAC>London,England</PLAC>
+   </BIRT>
+   <FAMS>@F11@</FAMS>
+   <FAMC>@F33@</FAMC>
+   <RIN>56</RIN>
+ </INDI>
+ <INDI id='@I56@'>
+   <NAME>William Henry Andrew/Windsor/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Thursday, 18th December 1941</DATE>
+     <PLAC>Hadley Common,Hertfordshire,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Sunday, 22nd February 1942</DATE>
+     <PLAC>Private Chapel,Windsor Castle,Berkshire,England</PLAC>
+   </CHR>
+   <DEAT>
+     <DATE>Monday, 28th August 1972</DATE>
+     <PLAC>Near,Wolverhampton,England</PLAC>
+   </DEAT>
+   <FAMC>@F11@</FAMC>
+   <RIN>57</RIN>
+ </INDI>
+ <INDI id='@I57@'>
+   <NAME>Richard Alexander Walter/Windsor/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 26th August 1944</DATE>
+     <PLAC>Hadley Common,Hertfordshire,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Friday, 20th October 1944</DATE>
+     <PLAC>Private Chapel,Windsor Castle,Berkshire,England</PLAC>
+   </CHR>
+   <FAMS>@F13@</FAMS>
+   <FAMC>@F11@</FAMC>
+   <RIN>58</RIN>
+ </INDI>
+ <INDI id='@I58@'>
+   <NAME>Birgitte of_Denmark /von_Deurs/</NAME>
+   <TITL>Duchess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1947</DATE>
+   </BIRT>
+   <FAMS>@F13@</FAMS>
+   <RIN>59</RIN>
+ </INDI>
+ <INDI id='@I59@'>
+   <NAME>Alexander Patrick Gregers//</NAME>
+   <TITL>Earl of Ulster</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Thursday, 24th October 1974</DATE>
+     <PLAC>St. Marys Hosp.,Paddington,London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Sunday, 9th February 1975</DATE>
+     <PLAC>Barnwell Church</PLAC>
+   </CHR>
+   <FAMC>@F13@</FAMC>
+   <RIN>60</RIN>
+ </INDI>
+ <INDI id='@I60@'>
+   <NAME>Davina Elizabeth Alice/Windsor/</NAME>
+   <TITL>Lady</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Saturday, 19th November 1977</DATE>
+   </BIRT>
+   <CHR>
+     <PLAC>Barnwell Church,,England</PLAC>
+   </CHR>
+   <FAMC>@F13@</FAMC>
+   <RIN>61</RIN>
+ </INDI>
+ <INDI id='@I61@'>
+   <NAME>Rose Victoria Birgitte/Windsor/</NAME>
+   <TITL>Lady</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Saturday, 1st March 1980</DATE>
+     <PLAC>St. Marys Hosp.,Paddington,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Sunday, 13th July 1980</DATE>
+     <PLAC>Barnwell Church,,England</PLAC>
+   </CHR>
+   <FAMC>@F13@</FAMC>
+   <RIN>62</RIN>
+ </INDI>
+ <INDI id='@I62@'>
+   <NAME>George Edward Alexander/Windsor/</NAME>
+   <TITL>Duke of Kent</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 20th December 1902</DATE>
+     <PLAC>York Cottage,Sandringham,Norfolk,England</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Tuesday, 25th August 1942</DATE>
+     <PLAC>Morven,,,Scotland</PLAC>
+   </DEAT>
+   <FAMS>@F9@</FAMS>
+   <FAMC>@F3@</FAMC>
+   <RIN>63</RIN>
+ </INDI>
+ <INDI id='@I63@'>
+   <NAME>Marina of_Greece //</NAME>
+   <TITL>Princess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Friday, 30th November 1906</DATE>
+     <PLAC>Athens,Greece</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>1968</DATE>
+     <PLAC>Kensington,Palace,,England</PLAC>
+   </DEAT>
+   <FAMS>@F9@</FAMS>
+   <FAMC>@F25@</FAMC>
+   <RIN>64</RIN>
+ </INDI>
+ <INDI id='@I64@'>
+   <NAME>Edward George Nicholas/Windsor/</NAME>
+   <TITL>Duke of Kent</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Monday, 9th September 1935</DATE>
+     <PLAC>3 Belgrave Sq.,,England</PLAC>
+   </BIRT>
+   <FAMS>@F18@</FAMS>
+   <FAMC>@F9@</FAMC>
+   <RIN>65</RIN>
+ </INDI>
+ <INDI id='@I65@'>
+   <NAME>Katharine  /Worsley/</NAME>
+   <TITL>Duchess of Kent</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>1933</DATE>
+   </BIRT>
+   <FAMS>@F18@</FAMS>
+   <FAMC>@F37@</FAMC>
+   <RIN>66</RIN>
+ </INDI>
+ <INDI id='@I66@'>
+   <NAME>George Philip of_St._Andrews/Windsor/</NAME>
+   <TITL>Earl</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Tuesday, 26th June 1962</DATE>
+   </BIRT>
+   <CHR>
+     <DATE>Friday, 14th September 1962</DATE>
+     <PLAC>Buckingham,Palace,Music Room,England</PLAC>
+   </CHR>
+   <FAMS>@F41@</FAMS>
+   <FAMC>@F18@</FAMC>
+   <RIN>67</RIN>
+ </INDI>
+ <INDI id='@I67@'>
+   <NAME>Sylvana  /Tomaselli/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>ABT    1957</DATE>
+     <PLAC>Canada</PLAC>
+   </BIRT>
+   <FAMS>@F42@</FAMS>
+   <FAMS>@F41@</FAMS>
+   <FAMC>@F43@</FAMC>
+   <RIN>68</RIN>
+ </INDI>
+ <INDI id='@I68@'>
+   <NAME>Helen Marina Lucy/Windsor/</NAME>
+   <TITL>Lady</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Tuesday, 28th April 1964</DATE>
+   </BIRT>
+   <CHR>
+     <DATE>Tuesday, 12th May 1964</DATE>
+     <PLAC>Private Chapel,Windsor Castle,Berkshire,England</PLAC>
+   </CHR>
+   <FAMC>@F18@</FAMC>
+   <RIN>69</RIN>
+ </INDI>
+ <INDI id='@I69@'>
+   <NAME>Nicholas Charles Edward/Windsor/</NAME>
+   <TITL>Lord</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 25th July 1970</DATE>
+     <PLAC>Kings College,Hospital,Denmark Hill</PLAC>
+   </BIRT>
+   <CHR>
+     <PLAC>Private Chapel,Windsor Castle,Berkshire,England</PLAC>
+   </CHR>
+   <FAMC>@F18@</FAMC>
+   <RIN>70</RIN>
+ </INDI>
+ <INDI id='@I70@'>
+   <NAME>Alexandra  /Windsor/</NAME>
+   <TITL>Princess</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Friday, 25th December 1936</DATE>
+   </BIRT>
+   <FAMS>@F17@</FAMS>
+   <FAMC>@F9@</FAMC>
+   <RIN>71</RIN>
+ </INDI>
+ <INDI id='@I71@'>
+   <NAME>Angus  /Ogilvy/</NAME>
+   <TITL>Hon.</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>1928</DATE>
+   </BIRT>
+   <FAMS>@F17@</FAMS>
+   <RIN>72</RIN>
+ </INDI>
+ <INDI id='@I72@'>
+   <NAME>James Robert Bruce/Ogilvy/</NAME>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 29th February 1964</DATE>
+     <PLAC>Thatched House,Lodge,,England</PLAC>
+   </BIRT>
+   <FAMS>@F45@</FAMS>
+   <FAMC>@F17@</FAMC>
+   <RIN>73</RIN>
+ </INDI>
+ <INDI id='@I73@'>
+   <NAME>Julia  /Rawlinson/</NAME>
+   <SEX>F</SEX>
+   <FAMS>@F45@</FAMS>
+   <RIN>74</RIN>
+ </INDI>
+ <INDI id='@I74@'>
+   <NAME>Marina Victoria Alexandra/Ogilvy/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Sunday, 31st July 1966</DATE>
+     <PLAC>Thatched House,Lodge,Richmond Park,England</PLAC>
+   </BIRT>
+   <FAMS>@F39@</FAMS>
+   <FAMC>@F17@</FAMC>
+   <RIN>75</RIN>
+ </INDI>
+ <INDI id='@I75@'>
+   <NAME>Paul  /Mowatt/</NAME>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>ABT    1962</DATE>
+   </BIRT>
+   <FAMS>@F39@</FAMS>
+   <RIN>76</RIN>
+ </INDI>
+ <INDI id='@I76@'>
+   <NAME>/Mowatt/</NAME>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Saturday, 26th May 1990</DATE>
+   </BIRT>
+   <FAMC>@F39@</FAMC>
+   <RIN>77</RIN>
+ </INDI>
+ <INDI id='@I77@'>
+   <NAME>Michael  /Windsor/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Saturday, 4th July 1942</DATE>
+     <PLAC>Coppins,,England</PLAC>
+   </BIRT>
+   <FAMS>@F31@</FAMS>
+   <FAMC>@F9@</FAMC>
+   <RIN>78</RIN>
+ </INDI>
+ <INDI id='@I78@'>
+   <NAME>Marie-Christine  /von_Reibnitz/</NAME>
+   <TITL>Baroness</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Monday, 15th January 1945</DATE>
+     <PLAC>Czechoslovakia</PLAC>
+   </BIRT>
+   <FAMS>@F32@</FAMS>
+   <FAMS>@F31@</FAMS>
+   <RIN>79</RIN>
+ </INDI>
+ <INDI id='@I79@'>
+   <NAME>Frederick  /Windsor/</NAME>
+   <TITL>Lord</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Friday, 6th April 1979</DATE>
+     <PLAC>St. Mary's Hosp.,Paddington,London,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Wednesday, 11th July 1979</DATE>
+     <PLAC>Chapel Royal,St. James Palace,England</PLAC>
+   </CHR>
+   <FAMC>@F31@</FAMC>
+   <RIN>80</RIN>
+ </INDI>
+ <INDI id='@I80@'>
+   <NAME>Gabriella Marina Alexandra/Windsor/</NAME>
+   <TITL>Lady</TITL>
+   <SEX>F</SEX>
+   <BIRT>
+     <DATE>Thursday, 23rd April 1981</DATE>
+     <PLAC>,,England</PLAC>
+   </BIRT>
+   <CHR>
+     <DATE>Monday, 8th June 1981</DATE>
+     <PLAC>Chapel Royal,St. James Palace,England</PLAC>
+   </CHR>
+   <FAMC>@F31@</FAMC>
+   <RIN>81</RIN>
+ </INDI>
+ <INDI id='@I81@'>
+   <NAME>John Charles Francis/Windsor/</NAME>
+   <TITL>Prince</TITL>
+   <SEX>M</SEX>
+   <BIRT>
+     <DATE>Wednesday, 12th July 1905</DATE>
+     <PLAC>York Cottage,Sandringham,Norfolk,England</PLAC>
+   </BIRT>
+   <DEAT>
+     <DATE>Saturday, 18th January 1919</DATE>
+     <PLAC>Wood Farm,Wolferton,Norfolk,England</PLAC>
+   </DEAT>
+   <BURI>
+     <PLAC>Sandringham,Norfolk,,England</PLAC>
+   </BURI>
+   <FAMC>@F3@</FAMC>
+   <RIN>82</RIN>
+ </INDI>
+ <INDI id='@I82@'>
+   <NAME>B1 C1</NAME>
+   <BIRT>
+     <DATE>Saturday, 1st January 2000</DATE>
+     <AGE>0</AGE>
+   </BIRT>
+   <BIRT>
+     <DATE>Sunday, 2nd January 2000</DATE>
+   </BIRT>
+   <RIN>83</RIN>
+   <NOTE value='Line 1'>
+     <CONT>Line 2</CONT>
+     <CONT>Lin</CONT>
+     <CONC>e 3</CONC>
+     <CONT>Line </CONT>
+     <CONC>4</CONC>
+   </NOTE>
+ </INDI>
+ <INDI id='@I83@'>
+   <NAME>A2 B2 C2</NAME>
+   <RIN>84</RIN>
+ </INDI>
+ <INDI id='@I84@'>
+   <NAME>B2 C2 D2</NAME>
+   <RIN>85</RIN>
+ </INDI>
+ <INDI id='@I85@'>
+   <NAME>A2 B2 C2 D2</NAME>
+   <RIN>86</RIN>
+ </INDI>
+ <INDI id='@I86@'>
+   <NAME>A3B3 C3 D3</NAME>
+   <RIN>87</RIN>
+ </INDI>
+ <INDI id='@I87@'>
+   <NAME>A3 B3 C3D3</NAME>
+   <RIN>88</RIN>
+ </INDI>
+ <INDI id='@I88@'>
+   <NAME>A3B3 C3D3</NAME>
+   <RIN>89</RIN>
+ </INDI>
+ <INDI id='@I89@'>
+   <NAME>a3b3 c3d3</NAME>
+   <RIN>90</RIN>
+ </INDI>
+ <INDI id='@I90@'>
+   <NAME>A4B4C4D4</NAME>
+   <RIN>91</RIN>
+ </INDI>
+ <INDI id='@I91@'>
+   <NAME>a4b4c4d4</NAME>
+   <RIN>92</RIN>
+ </INDI>
+ <FAM id='@F1@'>
+   <CHIL>@I1@</CHIL>
+   <DIV>N</DIV>
+   <MARR>
+     <DATE>Monday, 10th February 1840</DATE>
+     <PLAC>Chapel Royal,St. James Palace,England</PLAC>
+   </MARR>
+   <RIN>93</RIN>
+ </FAM>
+ <FAM id='@F2@'>
+   <HUSB>@I1@</HUSB>
+   <WIFE>@I2@</WIFE>
+   <CHIL>@I3@</CHIL>
+   <MARR>
+     <DATE>Tuesday, 10th March 1863</DATE>
+     <PLAC>St. George Chap.,Windsor,,England</PLAC>
+   </MARR>
+   <RIN>94</RIN>
+ </FAM>
+ <FAM id='@F3@'>
+   <HUSB>@I3@</HUSB>
+   <WIFE>@I4@</WIFE>
+   <CHIL>@I5@</CHIL>
+   <CHIL>@I7@</CHIL>
+   <CHIL>@I28@</CHIL>
+   <CHIL>@I54@</CHIL>
+   <CHIL>@I62@</CHIL>
+   <CHIL>@I81@</CHIL>
+   <MARR>
+     <DATE>Thursday, 6th July 1893</DATE>
+     <PLAC>Chapel Royal,St. James Palace</PLAC>
+   </MARR>
+   <RIN>95</RIN>
+ </FAM>
+ <FAM id='@F4@'>
+   <HUSB>@I7@</HUSB>
+   <WIFE>@I8@</WIFE>
+   <CHIL>@I9@</CHIL>
+   <CHIL>@I24@</CHIL>
+   <DIV>N</DIV>
+   <MARR>
+     <DATE>Thursday, 26th April 1923</DATE>
+   </MARR>
+   <RIN>96</RIN>
+ </FAM>
+ <FAM id='@F5@'>
+   <HUSB>@I25@</HUSB>
+   <WIFE>@I24@</WIFE>
+   <CHIL>@I26@</CHIL>
+   <CHIL>@I27@</CHIL>
+   <DIV>Y</DIV>
+   <MARR>
+     <DATE>Friday, 6th May 1960</DATE>
+     <PLAC>Westminster,Cathedral,London,England</PLAC>
+   </MARR>
+   <RIN>97</RIN>
+ </FAM>
+ <FAM id='@F6@'>
+   <HUSB>@I10@</HUSB>
+   <WIFE>@I9@</WIFE>
+   <CHIL>@I11@</CHIL>
+   <CHIL>@I15@</CHIL>
+   <CHIL>@I19@</CHIL>
+   <CHIL>@I23@</CHIL>
+   <DIV>N</DIV>
+   <MARR>
+     <DATE>Thursday, 20th November 1947</DATE>
+     <PLAC>Westminster,Abbey,London,England</PLAC>
+   </MARR>
+   <RIN>98</RIN>
+ </FAM>
+ <FAM id='@F7@'>
+   <HUSB>@I16@</HUSB>
+   <WIFE>@I15@</WIFE>
+   <CHIL>@I17@</CHIL>
+   <CHIL>@I18@</CHIL>
+   <DIV>N</DIV>
+   <MARR>
+     <DATE>Wednesday, 14th November 1973</DATE>
+     <PLAC>Westminster,Abbey,London,England</PLAC>
+   </MARR>
+   <RIN>99</RIN>
+ </FAM>
+ <FAM id='@F8@'>
+   <HUSB>@I11@</HUSB>
+   <WIFE>@I12@</WIFE>
+   <CHIL>@I13@</CHIL>
+   <CHIL>@I14@</CHIL>
+   <DIV>N</DIV>
+   <MARR>
+     <DATE>Wednesday, 29th July 1981</DATE>
+     <PLAC>St. Paul's,Cathedral,London,England</PLAC>
+   </MARR>
+   <RIN>100</RIN>
+ </FAM>
+ <FAM id='@F9@'>
+   <HUSB>@I62@</HUSB>
+   <WIFE>@I63@</WIFE>
+   <CHIL>@I64@</CHIL>
+   <CHIL>@I70@</CHIL>
+   <CHIL>@I77@</CHIL>
+   <MARR>
+     <DATE>Thursday, 29th November 1934</DATE>
+     <PLAC>Westminster,Abbey,London,England</PLAC>
+   </MARR>
+   <RIN>101</RIN>
+ </FAM>
+ <FAM id='@F10@'>
+   <HUSB>@I29@</HUSB>
+   <WIFE>@I28@</WIFE>
+   <CHIL>@I30@</CHIL>
+   <CHIL>@I48@</CHIL>
+   <MARR>
+     <DATE>Tuesday, 28th February 1922</DATE>
+     <PLAC>Westminster,Abbey,London,England</PLAC>
+   </MARR>
+   <RIN>102</RIN>
+ </FAM>
+ <FAM id='@F11@'>
+   <HUSB>@I54@</HUSB>
+   <WIFE>@I55@</WIFE>
+   <CHIL>@I56@</CHIL>
+   <CHIL>@I57@</CHIL>
+   <MARR>
+     <DATE>Wednesday, 6th November 1935</DATE>
+     <PLAC>Buckingham,Palace,London,England</PLAC>
+   </MARR>
+   <RIN>103</RIN>
+ </FAM>
+ <FAM id='@F12@'>
+   <HUSB>@I5@</HUSB>
+   <WIFE>@I6@</WIFE>
+   <DIV>N</DIV>
+   <MARR>
+     <DATE>Thursday, 3rd June 1937</DATE>
+     <PLAC>Chateau de Cande,Monts,,France</PLAC>
+   </MARR>
+   <RIN>104</RIN>
+ </FAM>
+ <FAM id='@F13@'>
+   <HUSB>@I57@</HUSB>
+   <WIFE>@I58@</WIFE>
+   <CHIL>@I59@</CHIL>
+   <CHIL>@I60@</CHIL>
+   <CHIL>@I61@</CHIL>
+   <MARR>
+     <DATE>Wednesday, 19th July 1972</DATE>
+   </MARR>
+   <RIN>105</RIN>
+ </FAM>
+ <FAM id='@F14@'>
+   <WIFE>@I6@</WIFE>
+   <DIV>Y</DIV>
+   <MARR>
+     <DATE>1916</DATE>
+   </MARR>
+   <RIN>106</RIN>
+ </FAM>
+ <FAM id='@F15@'>
+   <WIFE>@I6@</WIFE>
+   <DIV>Y</DIV>
+   <MARR>
+     <DATE>1928</DATE>
+   </MARR>
+   <RIN>107</RIN>
+ </FAM>
+ <FAM id='@F16@'>
+   <CHIL>@I10@</CHIL>
+   <MARR>
+     <DATE>1903</DATE>
+   </MARR>
+   <RIN>108</RIN>
+ </FAM>
+ <FAM id='@F17@'>
+   <HUSB>@I71@</HUSB>
+   <WIFE>@I70@</WIFE>
+   <CHIL>@I72@</CHIL>
+   <CHIL>@I74@</CHIL>
+   <MARR>
+     <DATE>Friday, 19th April 1963</DATE>
+     <PLAC>,,England</PLAC>
+   </MARR>
+   <RIN>109</RIN>
+ </FAM>
+ <FAM id='@F18@'>
+   <HUSB>@I64@</HUSB>
+   <WIFE>@I65@</WIFE>
+   <CHIL>@I66@</CHIL>
+   <CHIL>@I68@</CHIL>
+   <CHIL>@I69@</CHIL>
+   <MARR>
+     <DATE>1961</DATE>
+   </MARR>
+   <RIN>110</RIN>
+ </FAM>
+ <FAM id='@F19@'>
+   <CHIL>@I4@</CHIL>
+   <RIN>111</RIN>
+ </FAM>
+ <FAM id='@F20@'>
+   <CHIL>@I8@</CHIL>
+   <RIN>112</RIN>
+ </FAM>
+ <FAM id='@F21@'>
+   <HUSB>@I19@</HUSB>
+   <WIFE>@I20@</WIFE>
+   <CHIL>@I21@</CHIL>
+   <CHIL>@I22@</CHIL>
+   <MARR>
+     <DATE>Wednesday, 23rd July 1986</DATE>
+     <PLAC>Westminster,Abbey,London,England</PLAC>
+   </MARR>
+   <RIN>113</RIN>
+ </FAM>
+ <FAM id='@F22@'>
+   <CHIL>@I20@</CHIL>
+   <DIV>Y</DIV>
+   <MARR>
+     <DATE>Thursday, 19th January 1956</DATE>
+     <PLAC>St. Margarets,Westminster,England</PLAC>
+   </MARR>
+   <RIN>114</RIN>
+ </FAM>
+ <FAM id='@F23@'>
+   <CHIL>@I6@</CHIL>
+   <RIN>115</RIN>
+ </FAM>
+ <FAM id='@F24@'>
+   <CHIL>@I2@</CHIL>
+   <MARR>
+     <DATE>1842</DATE>
+   </MARR>
+   <RIN>116</RIN>
+ </FAM>
+ <FAM id='@F25@'>
+   <CHIL>@I63@</CHIL>
+   <MARR>
+     <DATE>1902</DATE>
+   </MARR>
+   <RIN>117</RIN>
+ </FAM>
+ <FAM id='@F26@'>
+   <CHIL>@I12@</CHIL>
+   <DIV>Y</DIV>
+   <MARR>
+     <DATE>1954</DATE>
+     <PLAC>Westminster,Abbey,London,England</PLAC>
+   </MARR>
+   <RIN>118</RIN>
+ </FAM>
+ <FAM id='@F27@'>
+   <HUSB>@I30@</HUSB>
+   <WIFE>@I31@</WIFE>
+   <CHIL>@I32@</CHIL>
+   <CHIL>@I38@</CHIL>
+   <CHIL>@I42@</CHIL>
+   <DIV>Y</DIV>
+   <MARR>
+     <DATE>1949</DATE>
+   </MARR>
+   <RIN>119</RIN>
+ </FAM>
+ <FAM id='@F28@'>
+   <HUSB>@I48@</HUSB>
+   <WIFE>@I49@</WIFE>
+   <CHIL>@I50@</CHIL>
+   <DIV>Y</DIV>
+   <MARR>
+     <DATE>1952</DATE>
+   </MARR>
+   <RIN>120</RIN>
+ </FAM>
+ <FAM id='@F29@'>
+   <HUSB>@I30@</HUSB>
+   <WIFE>@I46@</WIFE>
+   <CHIL>@I47@</CHIL>
+   <MARR>
+     <DATE>1967</DATE>
+   </MARR>
+   <RIN>121</RIN>
+ </FAM>
+ <FAM id='@F30@'>
+   <HUSB>@I48@</HUSB>
+   <WIFE>@I52@</WIFE>
+   <CHIL>@I53@</CHIL>
+   <MARR>
+     <DATE>1978</DATE>
+   </MARR>
+   <RIN>122</RIN>
+ </FAM>
+ <FAM id='@F31@'>
+   <HUSB>@I77@</HUSB>
+   <WIFE>@I78@</WIFE>
+   <CHIL>@I79@</CHIL>
+   <CHIL>@I80@</CHIL>
+   <MARR>
+     <DATE>Friday, 30th June 1978</DATE>
+     <PLAC>Vienna,Austria</PLAC>
+   </MARR>
+   <RIN>123</RIN>
+ </FAM>
+ <FAM id='@F32@'>
+   <WIFE>@I78@</WIFE>
+   <DIV>Y</DIV>
+   <MARR>
+     <DATE>Sunday, 19th September 1971</DATE>
+   </MARR>
+   <RIN>124</RIN>
+ </FAM>
+ <FAM id='@F33@'>
+   <CHIL>@I55@</CHIL>
+   <RIN>125</RIN>
+ </FAM>
+ <FAM id='@F34@'>
+   <HUSB>@I32@</HUSB>
+   <WIFE>@I33@</WIFE>
+   <CHIL>@I34@</CHIL>
+   <CHIL>@I35@</CHIL>
+   <CHIL>@I36@</CHIL>
+   <CHIL>@I37@</CHIL>
+   <MARR>
+     <DATE>1979</DATE>
+   </MARR>
+   <RIN>126</RIN>
+ </FAM>
+ <FAM id='@F35@'>
+   <HUSB>@I38@</HUSB>
+   <WIFE>@I39@</WIFE>
+   <CHIL>@I40@</CHIL>
+   <CHIL>@I41@</CHIL>
+   <MARR>
+     <DATE>1973</DATE>
+   </MARR>
+   <RIN>127</RIN>
+ </FAM>
+ <FAM id='@F36@'>
+   <HUSB>@I42@</HUSB>
+   <WIFE>@I43@</WIFE>
+   <CHIL>@I44@</CHIL>
+   <CHIL>@I45@</CHIL>
+   <MARR>
+     <DATE>1981</DATE>
+   </MARR>
+   <RIN>128</RIN>
+ </FAM>
+ <FAM id='@F37@'>
+   <CHIL>@I65@</CHIL>
+   <RIN>129</RIN>
+ </FAM>
+ <FAM id='@F38@'>
+   <HUSB>@I50@</HUSB>
+   <WIFE>@I51@</WIFE>
+   <MARR>
+     <DATE>1979</DATE>
+   </MARR>
+   <RIN>130</RIN>
+ </FAM>
+ <FAM id='@F39@'>
+   <HUSB>@I75@</HUSB>
+   <WIFE>@I74@</WIFE>
+   <CHIL>@I76@</CHIL>
+   <MARR>
+     <DATE>Monday, 19th February 1990</DATE>
+   </MARR>
+   <RIN>131</RIN>
+ </FAM>
+ <FAM id='@F40@'>
+   <CHIL>@I16@</CHIL>
+   <RIN>132</RIN>
+ </FAM>
+ <FAM id='@F41@'>
+   <HUSB>@I66@</HUSB>
+   <WIFE>@I67@</WIFE>
+   <MARR>
+     <DATE>Tuesday, 19th January 1988</DATE>
+   </MARR>
+   <RIN>133</RIN>
+ </FAM>
+ <FAM id='@F42@'>
+   <WIFE>@I67@</WIFE>
+   <DIV>Y</DIV>
+   <RIN>134</RIN>
+ </FAM>
+ <FAM id='@F43@'>
+   <CHIL>@I67@</CHIL>
+   <DIV>Y</DIV>
+   <RIN>135</RIN>
+ </FAM>
+ <FAM id='@F44@'>
+   <HUSB>@I25@</HUSB>
+   <MARR>
+     <DATE>Sunday, 17th December 1978</DATE>
+   </MARR>
+   <RIN>136</RIN>
+ </FAM>
+ <FAM id='@F45@'>
+   <HUSB>@I72@</HUSB>
+   <WIFE>@I73@</WIFE>
+   <MARR>
+     <DATE>AFT    1989</DATE>
+   </MARR>
+   <RIN>137</RIN>
+ </FAM>
+ <FAM id='@F46@'>
+   <WIFE>@I46@</WIFE>
+   <RIN>138</RIN>
+ </FAM>
+ <FAM id='@F47@'>
+   <CHIL>@I31@</CHIL>
+   <RIN>139</RIN>
+   <SOUR value='@S1@'>
+     <PAGE>1</PAGE>
+   </SOUR>
+ </FAM>
+ <SOUR id='@S1@'>
+   <TEXT>Hello</TEXT>
+ </SOUR>
+ <TRLR/>
+</GEDCOM>
