@@ -1,0 +1,51 @@
+(in-package #:scrabble-stems)
+
+(defun normalize (word)
+  (string-downcase
+   (cl-ppcre:regex-replace-all "[^a-zA-Z]" word "")))
+
+(defun char-sort (word)
+  (sort word #'char-lessp))
+
+(defun add-stems (word stems)
+  (let ((seen (make-hash-table :size 7))
+	(sig (char-sort word)))
+    (do ((i 0 (1+ i)))
+	((= i 7))
+      (let ((cur-char (aref sig i)))
+	(unless (gethash cur-char seen)
+	  (let ((stem (cl-ppcre:regex-replace cur-char word "")))
+	    (when (null (gethash stem stems))
+	      (setf (gethash stem stems)
+		    (make-hash-table :size 26
+				     :test 'equal)))
+	    (setf (gethash cur-char (gethash stem stems)) t
+	          (gethash cur-char seen) t)))))))
+
+(defun as-string (letters)
+  (let (acc)
+    (maphash #'(lambda (letter value)
+		 (declare (ignore value))
+		 (push letter acc))
+	     letters)
+    (coerce (char-sort acc) 'string)))
+
+(defun display-results (stems limit)
+  (let (acc)
+    (maphash #'(lambda (stem letters)
+		 (let ((count (hash-table-count letters)))
+		   (when (> count limit)
+		     (push (list stem count (as-string letters)) acc))))
+	     stems)
+    (sort acc #'> :key #'second)))
+
+(defun main (&optional (filename  "/usr/share/dict/words")
+	       (stems (make-hash-table :test 'equal))
+	       (limit 15))
+  (with-open-file (in filename)
+    (do ((word (read-line in nil :eof)
+	       (read-line in nil :eof)))
+	((equal word :eof) (display-results stems limit))
+      (let ((word (normalize word)))
+	(when (= (length word) 7)
+	  (add-stems word stems))))))
